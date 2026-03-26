@@ -4,6 +4,7 @@ import About from './pages/About';
 import Menu from './pages/Menu';
 import Contact from './pages/Contact';
 import Reviews from './pages/Reviews';
+import StyleGuide from './pages/StyleGuide';
 import Root from './Root';
 
 export const router = createBrowserRouter([
@@ -16,6 +17,7 @@ export const router = createBrowserRouter([
       { path: 'menu', Component: Menu },
       { path: 'reviews', Component: Reviews },
       { path: 'contact', Component: Contact },
+      { path: 'style-guide', Component: StyleGuide },
     ],
   },
 ]);
